@@ -8,7 +8,7 @@ def root():
 
 
 def registration():
-    destroy.root()
+    root.destroy()
     import bradslogin
     
 Label(text="Welcome", bg="purple", width="30", height="2", font=("Calibri", 13)).pack() 
